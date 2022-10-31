@@ -1,0 +1,52 @@
+html,
+body {
+  font: "roboto", sans-serif;
+  font-family: "DOS", monospace;
+  color: #444;
+  /* font-size: 14px/1.21; */
+  font-weight: 400;
+  font-size: 25px;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  text-align: center;
+}
+.tui-window {
+  margin: auto;
+  text-align: left;
+}
+input {
+  width: 100px;
+}
+
+.consumptionForm {
+  max-width: 800px;
+  min-width: 800px;
+  margin: 50px;
+}
+.result {
+  padding: 10px;
+  margin: 10px;
+  background: white;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+.additionalNameInfo {
+  font-size: 70%;
+}
+@media (max-width: 666px) {
+  body {
+    font-size: 70%;
+  }
+}
+@media (max-width: 400px) {
+  .carImage {
+    max-width: 220px;
+  }
+  .consumptionForm {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
